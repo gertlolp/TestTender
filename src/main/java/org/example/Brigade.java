@@ -1,13 +1,12 @@
 package org.example;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.List;
 
-public class Brigada{
+public class Brigade {
     private List<Worker> workers;
 
-    public Brigada(List<Worker> workers) {
+    public Brigade(List<Worker> workers) {
         this.workers = workers;
     }
     public List<Worker> getWorkers() {
@@ -21,7 +20,7 @@ public class Brigada{
 
     @Override
     public String toString() {
-        return "Brigada{" +
+        return "Brigade{" +
                 "workers=" + workers +
                 '}';
     }
